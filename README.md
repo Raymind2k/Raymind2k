@@ -11,7 +11,7 @@
 </a>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&multiline=false&width=720&height=60&lines=Welcome+to+my+corner+of+GitHub+%F0%9F%91%8B;Software+Developer+%7C+Problem+Solver;Turning+caffeine+into+code+since+forever;Always+shipping%2C+always+learning" alt="typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3500&pause=4000&color=7AA2F7&center=true&vCenter=true&multiline=false&width=720&height=60&lines=Turning+caffeine+into+code%2C+one+commit+at+a+time" alt="typing intro" />
 </p>
 
 <p align="center">
