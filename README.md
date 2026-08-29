@@ -137,7 +137,7 @@ motto: Ship it, iterate, repeat.
 
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=Raymind2k&theme=tokyonight&hide_border=true&background=1a1b27&stroke=7aa2f7&ring=bb9af7&fire=f7768e&currStreakLabel=7aa2f7" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=Raymind2k&theme=tokyonight&hide_border=true&background=1a1b27&stroke=7aa2f7&ring=bb9af7&fire=f7768e&currStreakLabel=7aa2f7&v=2" />
   </a>
 </p>
 
