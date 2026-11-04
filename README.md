@@ -1,17 +1,14 @@
-<!-- Animated profile hero -->
+<!-- RAYMIND OS / animated profile -->
 <p align="center">
   <img src="./profile-hero.gif"
        width="100%"
-       alt="An animated neon developer interface boots up, shows Raymind2K, and connects a systems map">
+       alt="Raymind OS boots into a neon developer profile dashboard">
 </p>
 
-<p align="center">
-  <strong>Turning caffeine into code, one commit at a time.</strong>
-</p>
+<p align="center"><strong>Turning caffeine into code, one commit at a time.</strong></p>
 
 <p align="center">
-  <a href="#about-me">ABOUT</a> &nbsp;·&nbsp;
-  <a href="#tech-arsenal">TECH ARSENAL</a> &nbsp;·&nbsp;
+  <a href="#about-and-stack">ABOUT + STACK</a> &nbsp;·&nbsp;
   <a href="#github-activity">GITHUB ACTIVITY</a> &nbsp;·&nbsp;
   <a href="#connect">CONTACT</a>
 </p>
@@ -24,63 +21,21 @@
 
 ---
 
-<a name="about-me"></a>
-## 🧠 About Me
+<a name="about-and-stack"></a>
+## 🧠 About + 🛠️ Tech Arsenal
 
-```yaml
-name: Aishwary Verma
-alias: Raymind2k
-role: Software Developer
-current_focus:
-  - Building side projects that solve real problems
-  - Learning distributed systems and performance engineering
-  - Contributing to open source
-philosophy: Readable code > clever code
-fuel: [coffee, curiosity, clean diffs]
-motto: Ship it, iterate, repeat.
-```
+<p align="center">
+  <img src="./profile-modules.gif"
+       width="100%"
+       alt="Animated Raymind OS dashboard showing Aishwary Verma, software developer, building side projects, learning system design, contributing to open source, and scanning programming languages, frontend, backend, data, infrastructure, and tools">
+</p>
 
-- 🔭 Currently building something exciting — stay tuned
-- 🌱 Diving deeper into distributed systems and performance engineering
-- 💡 I believe in readable code over clever code
-- ⚡ I debug by explaining the problem to a rubber duck 🦆
-
----
-
-<a name="tech-arsenal"></a>
-## 🛠️ Tech Arsenal
-
-<table align="center">
-  <tr>
-    <td align="center" width="140"><strong>💻 Languages</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=python,js,ts,java,cpp,go,rust,cs" alt="Python, JavaScript, TypeScript, Java, C++, Go, Rust, and C sharp"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🎨 Frontend</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=react,nextjs,vue,tailwind,html,css,sass,vite" alt="React, Next.js, Vue, Tailwind, HTML, CSS, Sass, and Vite"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>⚙️ Backend</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,django,graphql,prisma,redis" alt="Node.js, Express, FastAPI, Django, GraphQL, Prisma, and Redis"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🗄️ Data</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,supabase,firebase" alt="PostgreSQL, MySQL, MongoDB, SQLite, Supabase, and Firebase"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>☁️ DevOps</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,vercel,githubactions,nginx,linux" alt="Docker, Kubernetes, AWS, Google Cloud, Vercel, GitHub Actions, Nginx, and Linux"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🧰 Tools</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,notion,vim" alt="Git, GitHub, VS Code, Figma, Postman, Notion, and Vim"></td>
-  </tr>
-</table>
+<p align="center"><sub>BUILD SIDE PROJECTS · LEARN SYSTEMS · SHIP CLEAN CODE</sub></p>
 
 ---
 
 <a name="github-activity"></a>
-## 📊 GitHub Activity
+## 🐍 GitHub Activity
 
 <p align="center">
   <picture>
@@ -102,9 +57,4 @@ motto: Ship it, iterate, repeat.
   <a href="https://github.com/Raymind2k"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
-<p align="center">
-  <sub>Thanks for visiting — built with Markdown, motion, and a lot of ☕</sub>
-</p>
-
-
-
+<p align="center"><sub>Thanks for visiting · built with Markdown, motion, and a lot of ☕</sub></p>
