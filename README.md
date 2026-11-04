@@ -1,14 +1,12 @@
 <!-- RAYMIND OS / animated profile -->
 <p align="center">
-  <img src="./profile-hero.gif"
-       width="100%"
-       alt="Raymind OS boots into a neon developer profile dashboard">
+  <img src="./profile-hero.gif" width="100%" alt="Raymind OS boots into a neon developer profile dashboard">
 </p>
-
 <p align="center"><strong>Turning caffeine into code, one commit at a time.</strong></p>
 
 <p align="center">
   <a href="#about-and-stack">ABOUT + STACK</a> &nbsp;·&nbsp;
+  <a href="#momentum-reactor">MOMENTUM REACTOR</a> &nbsp;·&nbsp;
   <a href="#github-activity">GITHUB ACTIVITY</a> &nbsp;·&nbsp;
   <a href="#connect">CONTACT</a>
 </p>
@@ -25,12 +23,19 @@
 ## 🧠 About + 🛠️ Tech Arsenal
 
 <p align="center">
-  <img src="./profile-modules.gif"
-       width="100%"
-       alt="Animated Raymind OS dashboard showing Aishwary Verma, software developer, building side projects, learning system design, contributing to open source, and scanning programming languages, frontend, backend, data, infrastructure, and tools">
+  <img src="./profile-modules.gif" width="100%" alt="Animated profile dashboard showing Aishwary Verma, software developer, building side projects, learning system design, contributing to open source, and scanning programming languages, frontend, backend, data, infrastructure, and tools">
 </p>
-
 <p align="center"><sub>BUILD SIDE PROJECTS · LEARN SYSTEMS · SHIP CLEAN CODE</sub></p>
+
+---
+
+<a name="momentum-reactor"></a>
+## ⚡ Momentum Reactor
+
+<p align="center">
+  <img src="./streak-card.svg" width="100%" alt="Automatically refreshed public contribution streak, longest streak, 30-day activity pulse, and progress to the next milestone">
+</p>
+<p align="center"><sub>PUBLIC CONTRIBUTIONS · REFRESHES EVERY SIX HOURS · PRIVATE ACTIVITY IS NOT INCLUDED</sub></p>
 
 ---
 
@@ -56,5 +61,5 @@
   <a href="https://discord.com/users/raymind2k"><img src="https://img.shields.io/badge/Discord-@raymind2k-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/Raymind2k"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
-
 <p align="center"><sub>Thanks for visiting · built with Markdown, motion, and a lot of ☕</sub></p>
+
