@@ -1,6 +1,6 @@
 <!-- Animated profile hero -->
 <p align="center">
-  <img src="./assets/profile-hero.gif"
+  <img src="./profile-hero.gif"
        width="100%"
        alt="An animated neon developer interface boots up, shows Raymind2K, and connects a systems map">
 </p>
