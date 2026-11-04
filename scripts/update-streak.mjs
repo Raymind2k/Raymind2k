@@ -28,7 +28,7 @@ const response = await fetch("https://api.github.com/graphql", {
     query,
     variables: {
       login,
-      from: "2008-01-01T00:00:00Z",
+      from: new Date(Date.now() - 364 * 24 * 60 * 60 * 1000).toISOString(),
       to: new Date().toISOString()
     }
   })
@@ -100,7 +100,7 @@ const bars = last30.map((count, i) => {
 const svg = [
   '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="250" viewBox="0 0 960 250">',
   '<title>Raymind2K contribution momentum reactor</title>',
-  '<desc>Current public contribution streak, all-time public best streak, a 30-day contribution pulse, and progress toward the next streak milestone.</desc>',
+  '<desc>Current public contribution streak, best public streak in the past 365 days, a 30-day contribution pulse, and progress toward the next streak milestone.</desc>',
   '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1b2a"/><stop offset="1" stop-color="#111328"/></linearGradient><linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#36dff5"/><stop offset="1" stop-color="#a077ff"/></linearGradient></defs>',
   '<rect x="1" y="1" width="958" height="248" rx="22" fill="url(#bg)" stroke="#25465d" stroke-width="2"/>',
   '<path d="M24 65H936" stroke="#27435a" stroke-width="1"/>',
@@ -112,7 +112,7 @@ const svg = [
   '<text x="130" y="151" text-anchor="middle" dominant-baseline="central" fill="#f0f7fb" font-family="ui-monospace,Consolas,monospace" font-size="39" font-weight="800">' + current + '</text>',
   '<text x="130" y="231" text-anchor="middle" fill="#8faec2" font-family="ui-monospace,Consolas,monospace" font-size="11" letter-spacing="2">CURRENT STREAK</text>',
   '<path d="M258 82V221" stroke="#27435a"/>',
-  '<text x="292" y="105" fill="#8faec2" font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing="2">BEST RUN  /  ALL-TIME PUBLIC</text>',
+  '<text x="292" y="105" fill="#8faec2" font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing="2">BEST RUN  /  PAST 365 DAYS</text>',
   '<text x="292" y="160" fill="#a077ff" font-family="ui-monospace,Consolas,monospace" font-size="48" font-weight="800">' + best + '<tspan fill="#8faec2" font-size="15"> DAYS</tspan></text>',
   '<text x="292" y="198" fill="#8faec2" font-family="ui-monospace,Consolas,monospace" font-size="12">CONTRIBUTION SIGNAL</text>',
   '<text x="292" y="220" fill="#41ffb1" font-family="ui-monospace,Consolas,monospace" font-size="17" font-weight="700">' + last30Total + '<tspan fill="#8faec2" font-size="11"> EVENTS / 30 DAYS</tspan></text>',
@@ -130,4 +130,6 @@ const svg = [
 
 fs.writeFileSync("streak-card.svg", svg, "utf8");
 console.log("Updated streak-card.svg: current " + current + " days, best " + best + " days, last 30 days " + last30Total + " contributions.");
+
+
 
